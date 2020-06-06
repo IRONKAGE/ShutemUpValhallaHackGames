@@ -104,8 +104,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showDebugInfo: 1
   guiDepth: 0
-  debugInfoColor: {r: 1, g: 0, b: 1, a: 1}
-  debugInfoRectBottomOffset: 0
 --- !u!114 &6130554643791187842
 MonoBehaviour:
   m_ObjectHideFlags: 0
