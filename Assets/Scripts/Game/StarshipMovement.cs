@@ -51,6 +51,7 @@ public class StarshipMovement : MonoBehaviour
         Instantiate(Bullet, bulletPos, Quaternion.identity);
     }
 
+   
     public static bool IsDoubleTap()
     {
         bool result = false;

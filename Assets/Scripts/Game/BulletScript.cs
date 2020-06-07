@@ -19,4 +19,9 @@ public class BulletScript : MonoBehaviour
     {
         rb.velocity = new Vector2(velX, velY);
     }
+
+    void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 }
