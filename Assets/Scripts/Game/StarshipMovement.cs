@@ -38,9 +38,9 @@ public class StarshipMovement : MonoBehaviour
         }
         if (IsDoubleTap())
         {
-            print("double tap");
-            nextFire = Time.time + fireRate;
-            makeFire();
+           print("double tap");
+           nextFire = Time.time + fireRate;
+           makeFire();
         }
     }
 
