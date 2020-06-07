@@ -20,11 +20,11 @@ public class EnemySpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > nextSpawn && enemiesCount < 6)
+        if (Time.time > nextSpawn && enemiesCount < 13)
         {
             nextSpawn = Time.time + spawnRate;
             randX = Random.Range(-2.7f, 2.7f);
-            randY = Random.Range(10f, 50f);
+            randY = Random.Range(10f, 100f);
             enemiesCount += enemiesCount + 1;
 
             whereToSpawn = new Vector2(randX, randY);
