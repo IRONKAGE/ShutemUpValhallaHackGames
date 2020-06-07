@@ -8,6 +8,7 @@ TagManager:
   - Ball
   - Wall
   - Bullet
+  - Parashute
   layers:
   - Default
   - TransparentFX
