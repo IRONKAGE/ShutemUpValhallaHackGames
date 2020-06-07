@@ -5,28 +5,26 @@ using UnityEngine.UI;
 public class CameraController : MonoBehaviour
 {
     //Camera movemant
-    private float movingSpeed = 5f;
+    private float movingSpeed = 3f;
 
     // timer
     public static float timer;
     public static bool timeStarted = true;
 
     // level time in seconds
-    public float levelTimeInSec = 20;
+    float levelTimeInSec = 40;
 
     void Update()
     {
-        if (timer < levelTimeInSec)
+        float seconds = Mathf.RoundToInt(timer % 60);
+        if (seconds < levelTimeInSec)
         {
             transform.position += Vector3.up * Time.deltaTime * movingSpeed;
+            timer += Time.deltaTime;
         }
-        if (timer > levelTimeInSec)
+        if (seconds > levelTimeInSec)
         {
             timeStarted = false;
-        }
-        if (timeStarted == true)
-        {
-            timer += Time.deltaTime;
         }
     }
 
@@ -35,14 +33,14 @@ public class CameraController : MonoBehaviour
         float minutes = Mathf.Floor(timer / 60);
         float seconds = timer % 60;
 
-        if (timer >= levelTimeInSec)
+        if (seconds >= levelTimeInSec - 1)
         {
             GUI.contentColor = Color.yellow;
             GUI.skin.label.fontSize = 20;
             GUI.Label(new Rect(10, 10, 250, 100), "boss fight");
         }
         else {
-            GUI.Label(new Rect(10, 10, 250, 100), minutes + ":" + (60 - Mathf.RoundToInt(seconds)) + "s");
+            GUI.Label(new Rect(10, 10, 250, 100), minutes + ":" + (levelTimeInSec - Mathf.RoundToInt(seconds)) + "s");
         }
     }
 }
