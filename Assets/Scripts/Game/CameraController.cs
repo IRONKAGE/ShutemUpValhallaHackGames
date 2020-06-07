@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class CameraController : MonoBehaviour
 {
     //Camera movemant
-    private float movingSpeed = 2f;
+    private float movingSpeed = 5f;
 
     // timer
     public static float timer;
