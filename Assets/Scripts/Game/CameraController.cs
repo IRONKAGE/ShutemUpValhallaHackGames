@@ -5,20 +5,24 @@ using UnityEngine.UI;
 public class CameraController : MonoBehaviour
 {
     //Camera movemant
-    private float movingSpeed = 5f;
+    private float movingSpeed = 2f;
 
     // timer
     public static float timer;
     public static bool timeStarted = true;
 
     // level time in seconds
-    public int levelTimeInSec = 60;
+    public float levelTimeInSec = 20;
 
     void Update()
     {
         if (timer < levelTimeInSec)
         {
             transform.position += Vector3.up * Time.deltaTime * movingSpeed;
+        }
+        if (timer > levelTimeInSec)
+        {
+            timeStarted = false;
         }
         if (timeStarted == true)
         {
