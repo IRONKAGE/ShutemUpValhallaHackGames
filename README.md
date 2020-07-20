@@ -26,7 +26,7 @@ After passing the boss, we move on to the next level, where we will face a fierc
 
 ## GamePlay
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/KSq_D1FoisU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![SrawRats GamePlay](http://img.youtube.com/vi/KSq_D1FoisU/0.jpg)](http://www.youtube.com/watch?v=KSq_D1FoisU)
 
 ## Team Valhala
 
