@@ -18,11 +18,11 @@ After passing the boss, we move on to the next level, where we will face a fierc
 
 ## Images
 
-![ScreenShot-1-Menu](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/ScreenShots/1-Menu.jpg){ width=50% height=50% }
+![ScreenShot-1-Menu](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/ScreenShots/1-Menu.jpg)
 
-![ScreenShot-3-Fly](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/ScreenShots/3-Fly.jpg){ width=50% height=50% }
+![ScreenShot-3-Fly](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/ScreenShots/3-Fly.jpg)
 
-![ScreenShot-5-Bass](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/ScreenShots/5-Boss.jpg){ width=50% height=50% }
+![ScreenShot-5-Bass](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/ScreenShots/5-Boss.jpg)
 
 ## GamePlay
 
@@ -30,6 +30,6 @@ After passing the boss, we move on to the next level, where we will face a fierc
 
 ## Team Valhala
 
-![Idea](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/Team/Idea.jpg){ width=50% height=50% }
+![Idea](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/Team/Idea.jpg)
 
-![Our Team](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/Team/Team.jpg){ width=50% height=50% }
+![Our Team](https://github.com/IRONKAGE/ShutemUpValhallaHackGames/blob/master/Public/Team/Team.jpg)
